@@ -231,7 +231,6 @@ a:hover {
     content: normal;
 }
 
-
 @media screen and (min-width: 64em) {
     .main-content {
         max-width: 64rem;
@@ -288,9 +287,6 @@ a:hover {
     }
 }
 
-#demo {
-}
-
 #demo .input {
     border: 1px solid #c0c8c9;
     border-radius: 4px;
@@ -303,6 +299,15 @@ a:hover {
     background-color: transparent;
     border-radius: 4px;
     height: 32px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    background-image: url(./ddown.png);
+    background-image: url(./ddown.svg?3), none;
+    background-repeat: no-repeat;
+    background-size: 1.5rem 1rem;
+    background-position: right center;
 }
 
 #demo .butt {
@@ -317,13 +322,16 @@ a:hover {
     border-radius: 4px;
     height: 32px;
 }
+
 pre.prettyprint {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-pre label{
+
+pre label {
     color: red;
 }
-pre em{
+
+pre em {
     margin: 5px 0px;
 }

@@ -371,12 +371,12 @@
         transform: scale(1);
         opacity: 1;
     }
-    45% {
+    50% {
         -webkit-transform: scale(0.1);
         transform: scale(0.1);
         opacity: 0.75;
     }
-    80% {
+    99% {
         -webkit-transform: scale(1);
         transform: scale(1);
         opacity: 1;
@@ -384,17 +384,18 @@
 }
 
 .line-pulse > div:nth-child(0) {
-    -moz-animation: line-pulse 0.75s 0s infinite alternate;
-    -ms-animation: line-pulse 0.75s 0s infinite alternate;
-    -o-animation: line-pulse 0.75s 0s infinite alternate;
-    animation: line-pulse 0.75s 0s infinite alternate;
+    -moz-animation: line-pulse 0.75s 0s infinite;
+    -ms-animation: line-pulse 0.75s 0s infinite;
+    -webkit-animation: line-pulse 0.75s 0s infinite;
+    -o-animation: line-pulse 0.75s 0s infinite;
+    animation: line-pulse 0.75s 0s infinite;
 }
 
 .line-pulse > div:nth-child(1) {
-    -moz-animation: scale 0.75s 0.1s infinite;
-    -ms-animation: scale 0.75s 0.1s infinite;
-    -o-animation: scale 0.75s 0.1s infinite;
-    -webkit-animation: scale 0.75s 0.1s infinite;
+    -moz-animation: line-pulse 0.75s 0.1s infinite;
+    -ms-animation: line-pulse 0.75s 0.1s infinite;
+    -o-animation: line-pulse 0.75s 0.1s infinite;
+    -webkit-animation: line-pulse 0.75s 0.1s infinite;
     animation: line-pulse 0.75s 0.1s infinite;
 }
 
